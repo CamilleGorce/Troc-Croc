@@ -91,19 +91,24 @@ header img {
 #titre{
     text-align:center;
     margin-top:-290px;
-    color:white;
+    color:#1E90FF;
     font-size:100px;
     font-family:Brush Script MT;
     }
 #slogan{
     text-align:center;
     margin-top:-80px;
-    color:white;
+    color:#1E90FF;
     font-family:Brush Script MT;
     font-size:80px;
     }
 
+.recherche{
+    float:right;
+    margin-right:30px;
+    margin-top:20px;
 
+}
  #accueil{
  text-align:center;
  font-size:50px;

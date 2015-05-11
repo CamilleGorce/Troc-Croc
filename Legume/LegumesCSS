@@ -109,30 +109,57 @@ header img {
  margin-bottom:50px;
  }
 
- .membre p {
-    font-size:20px;
-    text-align:center;
- }
 
-.bas{
+#full{
     margin-left:auto;
     margin-right:auto;
-    height:545px;
     width:1160px;
     }
 
+#legumev{
+    font-size:28px;
+    font-family:calibri;
+}
+.ligne1{
+    margin-bottom:100px;
+}
 .ligne1 .cube{
     display:inline-block;
     }
+
+#chou{
+    font-size:28px;
+    font-family:calibri;
+}
+.ligne2{
+    margin-bottom:100px;
+}    
 .ligne2 .cube{
     display:inline-block;
     }
+
+#legumev{
+    font-size:28px;
+    font-family:calibri;
+}
+.ligne3{
+    margin-bottom:100px;
+}
 .ligne3 .cube{
     display:inline-block;
     }
+
+#legumev{
+    font-size:28px;
+    font-family:calibri;
+}
+.ligne4{
+    margin-bottom:100px;
+}
 .ligne4 .cube{
     display:inline-block;
 }
+
 .cube a{
     color:black;
     font-size:15px;
