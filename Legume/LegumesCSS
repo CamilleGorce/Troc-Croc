@@ -138,7 +138,7 @@ header img {
     display:inline-block;
     }
 
-#legumev{
+#legrac{
     font-size:28px;
     font-family:calibri;
 }
@@ -149,7 +149,7 @@ header img {
     display:inline-block;
     }
 
-#legumev{
+#legfru{
     font-size:28px;
     font-family:calibri;
 }
