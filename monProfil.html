@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="monProfil.css" />
+		<title>Troc&Croc</title>
+	</head>
+
+	<body>
+		<header class="en_tete">
+			<!--contenu de l'en tête de ma page-->
+			<div class="titre">
+				<h1>
+				<!--titre principal de ma page-->
+					<div class="logo">
+						<img src="photos/logo.jpg" alt="logo du site" width="135" height="135" />
+					</div>
+					Troc & Croc
+				</h1>
+
+				<h2>
+					Un concentré de vitamines
+				</h2>
+
+				<h3 class="pseudo">
+					pseudo
+				</h3>
+
+				<p class="mon_panier">
+					<a href="monPanier.html"> Mon Panier </a>
+				</p>
+
+				<p>
+					<a class="deconnection"  href="deconnection.html"> Déconnection </a>
+				</p>
+
+				
+				<form>
+					<input class="recherche" type="text" name="recherche" maxlength="20" value="Rechercher"autocomplete="on"/>
+					<input type="image" src="photos\recherche." />
+				</form>
+			</div>
+
+			<nav>
+				<!--principaux liens de ma page, ici ceux de la barre de menu-->
+				<ul class="menu">
+					<li><a href="accueil.html"> Accueil </a></li>
+					<li><a href="achat.html"> Achat </a></li>
+					<li><a href="poster_une_annonce.html"> Poster une annonce </a></li>
+					<li><a href="localisation.html">Localisation</a></li>
+					<li><a href="evenements.html"> Evénements </a></li>
+					<li><a href="forum.html"> Forum</a></li>
+					<li><a href="monProfil.html"> Mon profil </a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div  id="ensemble">
+		<section>
+		<!--regroupe les contenus en fonction de leur thématique-->
+			<div class="info_membre">
+				NOM: <?php echo .$nom ?> <br/>
+				<br/>
+				PRENOM: <?php echo .$prenom ?> <br/>
+				<br/>
+				ADRESSE: <?php echo .$adresse ?> <br/>
+				<br/>
+				VILLE: <?php echo .$CP + .$ville ?><br/>
+				<br/>
+				EMAIL: <?php echo .$mail ?> <br/>
+				<br/>
+				TEL: <?php echo .$telephone ?> <br/>
+				<br/>
+				IDENTIFIANT: <?php echo .$pseudo ?> <br/>
+				<br/>
+				VEND:
+				<br/>
+				<br/>
+			</div>
+		</section>
+
+			<div class="fonctionnalites">
+				<a class="consulter_produit" href="accueil.html"> Consulter un produit </a><br/>
+				<a class="laisser_un_commentaire" href="commenter.html"> Laisser un commentaire </a><br/>
+				<a class=" calendrier" href="calendrier.html"> Mon calendrier </a><br/>
+				<a class="repertoire" href="repertoire.html"> Répertoire </a>
+			</div>
+		</div>
+
+
+			<div class="mon_panier">
+				<a href="monPanier.html"> Accéder à mon panier</a>
+			</div>
+
+			<p class="mes_proprietes">
+				<span class="mes_vendeurs">
+				<div>
+					<em>
+						Mes vendeurs
+					</em>
+					<a href="commenter.html"> Laisser un commentaire </a>
+				</span>
+				<span class="mes_achats">
+					<em>
+						Mes achats
+					</em>
+					<a href="commenter.html"> Laisser un commentaire </a>
+				</span>
+			
+				<span class="mes_evenements">
+					<em>
+						Mes événements <!--peut-être à supprimer et à voir si on a le temps de s'en occuper-->
+					</em>
+				</span>
+			</p>
+		
+		
+		<footer>
+			<div >
+				<div class="col1"><ul>
+					<li><a href="a_propos.html">A propos</a><br/></li>
+					<li><a href="plan_du__site.html">Plan du site</a><br/></li>
+					<li><a href="plan_du__site.html">Plan du site</a><br/></li>
+					<li><a href="contact.html"> Contact</a><br/></li>
+					</ul>
+				</div>
+				<div class="col2"><ul>
+					<li><a href="nos_valeurs.html">Nos valeurs</a><br/></li>
+					<li><a href="charte_de_travail.html">Charte de travail</a><br/></li>
+					<li><a href="statistiques.html"> Statistiques </a><br/></li>
+					</ul>
+				</div>
+				<div class="col3"><ul>
+					<li><a href="politique_de_confidentialite.html">Politique de confidentialité</a><br/></li>
+					<li><a href="mentions_legales.html">Mentions légales</a><br/></li>
+					<li><a href="partenaires.html">Partenaires</a><br/></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		</div>
+	</body>
+</html>
