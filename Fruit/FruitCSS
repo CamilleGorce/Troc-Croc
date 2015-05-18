@@ -189,6 +189,7 @@ header img {
 	margin-left:auto;
     margin-right:auto;
     width:1160px;
+    margin-bottom:100px;
 }
 .ligne6 .cube{
     display:inline-block;
