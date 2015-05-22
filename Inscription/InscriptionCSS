@@ -1,0 +1,211 @@
+body{
+    background-color:#8B4513;
+    margin: O auto;
+    }
+
+
+header{
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    width:1332px;
+    background-color:#BD8D46;
+    position:fixed;
+}
+header ul{
+    width:950px;
+    height:30px;
+    margin-top:40px;
+}
+header li{
+    display:inline;
+    margin-right:50px;
+}
+header li a{
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+    font-family:calibri;
+}
+header a:hover{
+    color:#B5E655;
+}
+header img {
+    height:98px;
+    witdth:100px;
+    float:left;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:50px;
+}
+.ensemble{
+    display:inline-block;
+    float:right;
+    height:100px;
+    margin-top:-90px;
+    margin-right:30px;
+}
+.mot{
+    float:left;
+    margin-top:4px;
+    margin-right:2px;
+}
+.mot p{
+    font-size:18px;
+    font-family:calibri;
+}
+.form{
+    float:right;
+    height:100px;
+}
+.form a{
+    text-decoration:none;
+    color:black;
+}
+.form a:hover{
+    color:#B5E655;
+}
+.form p{
+    font-size:18px;
+    color:black;
+    font-family:calibri;
+}
+.ins{
+    font-size:14px;
+    font-family:calibri;
+    float:right;
+    margin-top:-40px;
+    margin-right:10px;
+}
+
+.fond{
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+    width:1330px;
+}
+.fond img{
+    height:400px;
+    width:1330px;
+}
+
+
+
+ #inscription{
+ text-align:center;
+ font-size:50px;
+ margin-bottom:30px;
+ color:white;
+ }
+
+#partie1{
+    text-align:center;
+    font-size:26px;
+}
+#ins1{
+    height:170px;
+    width:470px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#info1{
+    height:170px;
+    width:230px;
+    float:left;
+}
+#info1 p{
+    text-align:left;
+    font-size:20px;
+}
+#form1{
+    height:170px;
+    weight:230px;
+    float:right;
+    margin-right:30px;
+}
+
+#partie2{
+    text-align:center;
+    font-size:26px;
+}
+#ins2{
+    height:440px;
+    width:470px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#info2{
+    float:left;
+    width:230px;
+    height:440px;
+}
+#info2 p{
+    text-align:left;
+    font-size:20px;
+}
+
+#form2{
+    height:450px;
+    width:230px;
+    float:right;
+}
+
+ .membre p {
+    font-size:20px;
+    text-align:center;
+ }
+
+ #accepte{
+    text-align:center;
+    font-size:20px;
+    font-family:alibri;
+ }
+
+footer{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    border-top:1px solid black;
+    width:1000px;
+}
+#propos{
+    text-align:center;
+    font-size:30px;
+    font-family:calibri;
+}
+.propos{
+    width:950px;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.col1{
+    height:60px;
+    width:290px;
+    float:left;
+}
+.col2{
+    height:60px;
+    width:290px;
+    margin:auto;
+}
+.col3{
+    height:60px;
+    width:290px;
+    float:right;
+    margin-top:-62px;
+}
+li{
+    text-align:center;
+    list-style-type:none;
+    font-size:18px;
+    font-family:calibri;
+}
+li a{
+    text-decoration:none;
+    color:black;
+}
+li a:hover{
+    color:#B5E655;
+}
+
