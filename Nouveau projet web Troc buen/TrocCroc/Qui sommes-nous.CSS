@@ -1,0 +1,87 @@
+#histoire{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	margin-bottom:20px;
+}
+
+#his{
+	font-size:30px;
+	font-family:calibri;
+	color: #9C031B;
+	text-align:center;
+}
+#objectif{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	margin-bottom:20px;
+}
+
+#ob{
+	font-size:30px;
+	font-family:calibri;
+	color: #9C031B;
+	text-align:center;
+}
+
+
+#equipe{
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:20px;
+	width:100%;
+	height:1020px;
+}
+#equ{
+	font-size:30px;
+	font-family:calibri;
+	color: #9C031B;
+	text-align:center;
+}
+.text{
+	font-size:20px;
+	font-family:calibri;
+	text-align:center;
+}
+#equipe img{
+	height:80%;
+	width:45%;
+	margin-left:28%;
+}
+#membre1{
+	float:left;
+	height:300px;
+	width:35%;
+	margin-left:7%;
+	margin-bottom:10px;
+}
+#membre2{
+	float:right;
+	height:300px;
+	width:35%;
+	margin-right:7%;
+	margin-bottom:10px;
+}
+#membre3{
+	height:300px;
+	width:35%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	margin-top:340px;
+}
+#membre4{
+	float:left;
+	height:300px;
+	width:35%;
+	margin-left:7%;
+	margin-bottom:10px;
+}
+#membre5{
+	float:right;
+	height:300px;
+	width:35%;
+	margin-right:7%;
+	margin-bottom:10px;
+}
