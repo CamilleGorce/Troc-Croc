@@ -1,0 +1,438 @@
+body{
+    background-image:url("beige_Fotor.jpg");
+    margin-left: 15px;
+    margin-right: 10px;
+    }
+
+
+header{
+    z-index: 2;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    width:98%;
+    top: 0px;
+    background-color:#9C031B;
+    position:fixed;
+}
+header ul{
+    width:950px;
+    height:30px;
+    margin-top:40px;
+}
+header li{
+    display:inline;
+    margin-right:50px;
+}
+header li a{
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+    font-family:calibri;
+}
+header a:hover{
+    color:#B5E655;
+}
+header img {
+    height:98px;
+    width:100px;
+    float:left;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:50px;
+}
+.ensemble{
+    display:inline-block;
+    float:right;
+    margin-top:-90px;
+    margin-right:30px;
+}
+.mot{
+    float:left;
+    margin-top:4px;
+    margin-right:2px;
+}
+.mot p{
+    font-size:18px;
+    font-family:calibri;
+}
+.form{
+    float:right;
+    height:100px;
+}
+.form a{
+    text-decoration:none;
+    color:black;
+}
+.form a:hover{
+    color:#B5E655;
+}
+.form p{
+    font-size:18px;
+    color:black;
+    font-family:calibri;
+}
+.ins{
+    font-size:14px;
+    font-family:calibri;
+    float:right;
+    margin-top:-40px;
+    margin-right:-2px;
+}
+
+.fond{
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.fond img{
+    width:100%;
+}
+#titre{
+    text-align:center;
+    margin-top:-290px;
+    color:white;
+    font-size:100px;
+    font-family:Brush Script MT;
+    }
+#slogan{
+    text-align:center;
+    margin-top:-80px;
+    color:white;
+    font-family:Brush Script MT;
+    font-size:80px;
+    }
+
+
+ #accueil{
+ text-align:center;
+ font-size:50px;
+ font-family:calibri;
+ margin-bottom:50px;
+ color: #9C031B;
+ }
+
+
+table.accueiltable
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.td_largeur3 {
+    width:500px;
+    /*border: 2px double black;*/
+}
+
+.tr_hauteur3 { height: 300px;}
+
+.debut
+{
+    float: right;
+    width: 500px;
+    height: 300px;
+    box-shadow: 6px 6px 6px black;
+    margin-right: 10%
+}
+
+#texte p{
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: justify;
+}
+
+#texte h1{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.accueiltable img{
+    width: 500px;
+    height: 300px;
+    box-shadow: 6px 6px 6px black;
+}
+
+.membre p {
+    font-size:20px;
+    font-family:calibri;
+    text-align:center;
+ }
+
+
+.haut{
+    height:auto;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#histoire{
+    text-align:center;
+    font-size:28px;
+    font-family:calibri;
+}
+.intro{
+    height:auto;
+    width:100%;
+    border-radius:10px;
+    float:left;
+    margin-bottom: 30px;
+}
+.intro p{
+    font-size:14px;
+    text-align:left;
+    font-family:Brush Script MT;
+}
+
+.intro ul li{
+    font-family: Brush Script MT;
+    color: white;
+    font-size: 32px;
+}
+
+.fondintro{
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100%;
+}
+.fondintro img{
+    height:100%;
+    width:100%;
+}
+
+.fruitlegume{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    margin-bottom:270px;
+    height:400px;
+    width:100%;
+}
+.fr{
+    height:400px;
+    width:45%; 
+    float:left;
+}
+.le{
+    height:400px;
+    width:45%;
+    float:right;
+}
+.fr img{
+    height:350px;
+    width:100%;
+}
+.le img{
+    height:350px;
+    width:100%;
+}
+.fruitlegume a{
+    font-size:24px;
+    font-family:calibri;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+}
+.fruitlegume a:hover{
+    color:#B5E655;
+}
+
+
+#offres{
+    font-size:30px;
+    font-family:calibri;
+    text-align:center;
+}
+.position{
+    margin-left:auto;
+    margin-right:auto;
+    height:50px;
+    width:950px;
+    border:1px solid black;
+}
+#pos{
+    float:left;
+    margin-left:70px;
+}
+#dep{
+    float:right;
+    margin-right:100px;
+}   
+
+.offre{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    height:660px;
+    width:950px;
+}
+.offre-produit{
+    border:1px solid black;
+    height:300px;
+    width:100%;
+    margin-bottom:20px;
+}
+.illustration-produit{
+    width: 20%;
+    float:left;
+    }
+
+.illustration-produit img{
+    height:auto;
+    width:100%;
+    margin-top:25px;
+    margin-left:25px;
+}
+.produit{
+    float:right;
+    height:280px;
+    width:70%;
+    margin-top:10px;
+    border:1px solid black;
+}
+
+
+.semaine{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    width:100%;
+    text-align: center;
+}
+.semaine div{
+    display: inline-block;
+    height:auto;
+    width:30%;
+}
+.semaine div h2{
+}
+
+.semaine div img{
+    width: auto;
+    height: 150px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    margin-bottom: 20px;
+    border-top:1px solid black;
+    width:100%;
+    background-color:#800c16; 
+}
+
+.title-footer{
+    text-align:center;
+    font-size:30px;
+    font-family:calibri;
+}
+
+.apropos{
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-footer{
+    display: inline-block;
+    width:30%;
+}
+
+li{
+    text-align:center;
+    list-style-type:none;
+    font-size:18px;
+    font-family:calibri;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:#B5E655;
+}
+
+
+body.inscription{
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+table.inscription
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+    width: 50%;
+}
+
+a.condition-utilisation{
+    text-decoration: underline;
+}
+
+.Titres
+{
+    margin-left: 25%;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.td_largeur { width:220px;}
+
+.tr_hauteur { height: 30px;}
+
+.tr_hauteur2 { height: 50px;}
+
+/*td
+{
+    border: 1px solid black;
+}*/
+
+/*.inscription h1
+{
+    color : #fff;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}*/
+
+ #inscription{
+ text-align:center;
+ font-size:50px;
+ font-family:calibri;
+ margin-bottom:50px;
+ color: #9C031B;
+ }
+
+.Fin
+{
+        margin-left: 25%;
+}
+
+.Jaccepte
+{
+    margin-left: 25%;
+    color: black;
+    font-style: italic;
+}
+
+a.active{
+    text-decoration: underline;
+}
+
+body.profil{
+    margin-top: 100px;
+}
+
+.error{
+    background: black;
+    color: red;
+}
