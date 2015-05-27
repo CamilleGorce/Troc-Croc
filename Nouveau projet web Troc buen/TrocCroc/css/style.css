@@ -131,16 +131,31 @@ table.accueiltable
 .debut
 {
     float: right;
-    width: 500px;
-    height: 300px;
+    width: 40%;
     box-shadow: 6px 6px 6px black;
     margin-right: 10%
 }
 
-#texte p{
-    margin-left: 18%;
-    margin-right: 18%;
+#debuttexte p{
+    margin-left: 10%;
+    margin-right: 51%;
+    padding: 4px;
     text-align: justify;
+    border:2px solid black;
+}
+
+#debuttexte h1{
+    margin-left: 10%;
+    margin-right: 50%;
+    text-align: justify;
+}
+
+#debuttexte a{
+    text-decoration: underline;
+}
+
+#debuttexte h4{
+    margin-left: 40%;
 }
 
 #texte h1{
@@ -148,10 +163,10 @@ table.accueiltable
     margin-right: 18%;
 }
 
-.accueiltable img{
-    width: 500px;
-    height: 300px;
-    box-shadow: 6px 6px 6px black;
+#texte p{
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: justify;
 }
 
 .membre p {

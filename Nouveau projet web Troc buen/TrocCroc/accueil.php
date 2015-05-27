@@ -16,22 +16,25 @@
     <div id="accueil"><h4>Accueil</p></div>
     
     <hr>
-    <div class="intro">
+    
         <h4 id="histoire">L'histoire de Troc & Croc</h4>
         
         <img src="Champs.jpg" class="debut"/></p>
-            <p class="caca"><h1>Introduction</h1>
-                    Troc & Croc est un site internet de e-commerce permettant d'échanger,
-                    acheter ou vendre des fruits et légumes près de chez soi. 
+
+            <div id="debuttexte">
+                    <p>Troc & Croc est un site internet de e-commerce permettant d'échanger,
+                    acheter ou vendre des fruits et légumes près de chez soi.</br></br>
                     Vous pouvez à tout moment remplir votre panier de produits frais directement
-                    issus du potager d'un de nos vendeurs.
-                    Pour découvrir nos offres <a href="inscription.php">inscrivez-vous</a>.
-                    Presentation du site
-                    But de la création du site
-                    Vanter nos produits frais
-                    Choisissez votre producteur près de chez vous</p>
+                    issus du potager d'un de nos vendeurs. Vous n'avez qu'à séléctionner les fruits et legumes qui vous
+                    interèssent puis selectionner un vendeur en fonction de son département.</br></br>
+                    Vous avez également la possibilité de proposer vos propres produits à la vente en spécifint si vous
+                    si vous désirez vendre ou échanger.</br></br>
+                    Pour découvrir nos offres ou poster votre annonce <a href="inscription.php">inscrivez-vous</a>
+                    maintenant.</br></br>
+                   -Troc & Croc-</p>
 
     </div>
+
 </br>
 </br>
 </br>

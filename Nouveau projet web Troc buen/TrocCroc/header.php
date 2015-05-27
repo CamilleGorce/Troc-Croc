@@ -36,9 +36,9 @@ if($_POST){
   <body>
 
     <header>
-        <a href="Accueil.php"><img src="images/logo-troccroc.png" alt="logo"/></a>
+        <a href="accueil.php"><img src="images/logo-troccroc.png" alt="logo"/></a>
         <ul>
-            <li><a class="active" href="#">Accueil</a></li>
+            <li><a class="active" href="accueil.php">Accueil</a></li>
             <li><a href="achat.html">Achat</a></li>
             <li><a href="#">Vente</a></li>
             <li><a href="#">Localisation</a></li>
