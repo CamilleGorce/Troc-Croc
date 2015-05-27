@@ -81,7 +81,7 @@ echo "Vous êtes bien inscrit !";
 
     <?php include("headernotco.php"); ?>
 
-        <div id="inscription"><h4>Inscription</p></div>
+        <div id="accueil"><h4>Inscription</p></div>
     <hr>
 
 	<div class="Titres">

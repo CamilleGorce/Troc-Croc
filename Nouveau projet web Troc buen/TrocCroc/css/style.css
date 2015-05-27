@@ -94,25 +94,27 @@ header img {
     margin-top:-290px;
     color:white;
     font-size:100px;
-    font-family:Brush Script MT;
+    font-family:Calibiri;
     }
 #slogan{
     text-align:center;
     margin-top:-80px;
     color:white;
-    font-family:Brush Script MT;
+    font-family:Calibri;
     font-size:80px;
     }
 
 
  #accueil{
  text-align:center;
- font-size:50px;
- font-family:calibri;
+ font-family:Arial;
  margin-bottom:50px;
  color: #9C031B;
  }
 
+#accueil h4{
+    font-size: 50px;
+}
 
 table.accueiltable
 {
@@ -185,7 +187,8 @@ table.accueiltable
 #histoire{
     text-align:center;
     font-size:28px;
-    font-family:calibri;
+    font-family:Gabriola;
+
 }
 .intro{
     height:auto;
@@ -220,35 +223,29 @@ table.accueiltable
 .fruitlegume{
     margin-right:auto;
     margin-left:auto;
-    margin-top:100px;
-    margin-bottom:270px;
-    height:400px;
-    width:100%;
 }
 .fr{
-    height:400px;
-    width:45%; 
+    width:50%;
+    height:50%; 
     float:left;
 }
 .le{
-    height:400px;
-    width:45%;
+    height:50%;
+    width:50%;
     float:right;
 }
 .fr img{
-    height:350px;
+    height:450px;
     width:100%;
 }
 .le img{
-    height:350px;
+    height:450px;
     width:100%;
 }
 .fruitlegume a{
-    font-size:24px;
+    font-size:22px;
     font-family:calibri;
     text-align:center;
-    text-decoration:none;
-    color:black;
 }
 .fruitlegume a:hover{
     color:#B5E655;
@@ -429,7 +426,7 @@ a.condition-utilisation{
 
 .Fin
 {
-        margin-left: 25%;
+    margin-left: 25%;
 }
 
 .Jaccepte
@@ -439,9 +436,9 @@ a.condition-utilisation{
     font-style: italic;
 }
 
-a.active{
+/*a.active{
     text-decoration: underline;
-}
+}*/
 
 body.profil{
     margin-top: 100px;
@@ -450,4 +447,98 @@ body.profil{
 .error{
     background: black;
     color: red;
+}
+
+.barresearch{
+    box-shadow: 2px 4px 3px #9C031B;
+    border: solid black; 
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 30%;
+    text-align: center;
+}
+.submit{
+    box-shadow: 2px 4px 3px #9C031B;
+    border-radius: 3%;
+    margin-left: 40%;
+    color: #9C031B;
+    height: 50px;
+    width: 20%;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.resultat_requete{
+    border-bottom: 2px solid #9C031B;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.search{
+    font-size: 150%;
+}
+.rechercher{
+    text-align: center;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.bas{
+    margin-left:auto;
+    margin-right:auto;
+    height:545px;
+    width:1160px;
+    }
+
+.ligne1 .cube{
+    display:inline-block;
+    }
+.ligne2 .cube{
+    display:inline-block;
+    }
+.ligne3 .cube{
+    display:inline-block;
+    }
+.ligne4 .cube{
+    display:inline-block;
+}
+.ligne5 .cube{
+    display:inline-block;
+}
+.cube a{
+    color:black;
+    font-size:15px;
+    }
+.cube{
+    border:1px solid black;
+    background-color:white;
+    }
+.cube img{
+    height:130px;
+    width:160px;
+    }
+.cube p{
+    text-align:center;
+    font-size:14px;
+}
+
+
+
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 275px;
+    height: 37px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: grey;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
 }

@@ -13,7 +13,7 @@
 
     <?php include("header.php"); ?>
 
-    <div id="accueil"><h4>Accueil</p></div>
+    <div id="accueil"><h4>Accueil</h4></div>
     
     <hr>
     
@@ -34,23 +34,22 @@
                    -Troc & Croc-</p>
 
     </div>
+</br>
+</br>
+<div id="histoire"><h4>Rechercher un produit</h4></div>
 
-</br>
-</br>
-</br>
-</br>
     <div class="fruitlegume">            
         <div class="fr">
-            <a href="fruit.html"><img src="images/fruits.jpg" alt="Fruits" title="Fruits" /></a>
-            <a href="fruit.html"><p>Fruits</p></a>
+            <a href="fruit.php"><img src="fruititi.png" alt="Fruits" title="Fruits" /></a>
+            <a href="fruit.php"><p>Fruits</p></a>
         </div>
         <div class="le">
-            <a href="legumes.html"><img src="images/legumes.jpg" alt="Légumes" title="Légumes"/></a>
-            <a href="legumes.html"><p>Légumes</p></a>
+            <a href="legume.php"><img src="legumimi.png" alt="Légumes" title="Légumes"/></a>
+            <a href="legume.php"><p>Légumes</p></a>
         </div>
     </div>
 
-    <div id="offres"><h4>Offres recemment ajoutées</h4></div>
+    <div id="histoire"><h4>Offres recemment ajoutées</h4></div>
     
     <div class="position">
         <p>
@@ -79,6 +78,8 @@
             </div>
         </div>
     </div>
+
+     <div id="histoire"><h4>La semaine dernière :</h4></div>
 
     <div class="semaine">
         <div class="fruit">

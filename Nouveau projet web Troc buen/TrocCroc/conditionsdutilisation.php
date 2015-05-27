@@ -145,7 +145,7 @@ Les stipulations des articles intitulés Frais (en ce qui concerne les montants 
 
 </p>
 </div>
-	<a href="inscription.php">Retour</a>
+
 
     <?php include("footer.php"); ?>
 
