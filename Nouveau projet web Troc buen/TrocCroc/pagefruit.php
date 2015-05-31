@@ -13,7 +13,7 @@
     <div class="bas">
         <div class="ligne1">
             <div class="cube">
-                <a href="#"><img src="abricot.jpg" alt="abricot" title="Abricot"/></a>  
+                <a href="banane.php?search=abricot"><img src="abricot.jpg" alt="abricot" title="Abricot"/></a>  
             </div>
             <div class="cube">
                 <a href="#"><img src="ananas.jpg" alt="ananas" title="Ananas"/></a>
@@ -22,7 +22,7 @@
                 <a href="#"><img src="avocat.jpg" alt="avocat" title="Avocat"/></a>
             </div>
             <div class="cube">
-                <a href="#"><img src="banane.jpg" alt="banane" title="Banane"/></a>
+                <a href="banane.php?search=banane"><img src="banane.jpg" alt="banane" title="Banane"/></a>
             </div>
             <div class="cube">
                 <a href="#"><img src="brugnon.jpg" alt="brugnon" title="Brugnon"/></a>

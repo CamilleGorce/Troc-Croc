@@ -21,6 +21,7 @@
 <input class="submit" type="submit" value="Entrer"/></p>
 </br>
 </br>
+    <h4 id="histoire"><a href="voirtoutesoffres.php" style='text-decoration:underline'>Voir toutes les offres</a></h4>
 </form>
 </div>
 <?php 

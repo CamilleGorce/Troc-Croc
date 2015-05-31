@@ -40,8 +40,8 @@ if($_POST){
         <ul>
             <li><a class="active" href="accueil.php">Accueil</a></li>
             <li><a href="recherche.php">Achat</a></li>
-            <li><a href="#">Vente</a></li>
-            <li><a href="#">Localisation</a></li>
+            <li><a href="annonces.php">Vente</a></li>
+            <li><a href="localisation.php">Localisation</a></li>
             <li><a href="#">Forum</a></li>
             <?php if(!empty($_SESSION["user"])){?><li><a href="profil.php">Mon profil</a></li><?php }?>
         </ul>
@@ -67,6 +67,17 @@ if($_POST){
             <?php }?>
             <?php if(!empty($error)) echo "<p class='error'>".$error."</p>";?>
         </div>
+
+<!-- <?php if(!empty($_SESSION['flash'])) {
+ 
+  $flash = $_SESSION['flash']['message'];
+    $flash = $_SESSION['flash']['type'];
+    unset($_SESSION['flash']);
+?>
+
+<div role='alert' id='alert' class='alert alert-<?php echo $message ?>'>
+    <a class='close'>x</a><?php echo $flash;}?></div>
+-->
 
     </header>
 

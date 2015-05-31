@@ -13,7 +13,7 @@
 </br>
 </br>
 </br>
-<h4 id="histoire">Legumes :</h4>
+<h4 id="histoire">Légumes :</h4>
 </br>
 </br>
 

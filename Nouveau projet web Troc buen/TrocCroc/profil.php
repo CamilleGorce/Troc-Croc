@@ -66,7 +66,7 @@ if($_POST){
         </div>
     </header>
 <table>
-<caption>Mes informations personnelles | <a href="modifier-profil2.php?id=<?php echo $_SESSION["id"];?>">Modifier</a></caption>
+<caption>Mes informations personnelles | <a href="OLD/modifier-profil2.php?id=<?php echo $_SESSION["id"];?>">Modifier</a></caption>
 <tr>
 <td><label for="pseudo"><strong>Pseudo :</strong></label></td>
 <td><?php echo $_SESSION["user"]->getPseudo(); ?></td>
