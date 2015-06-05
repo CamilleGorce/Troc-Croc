@@ -1,0 +1,30 @@
+.titre{
+	text-align:center;
+	font-size:28px;
+	font-family:calibri;
+	color:#9C031B;
+	margin-bottom:20px;
+}
+.pages{
+	text-align:center;
+	font-size:20px;
+	font-family:calibri;
+	color:black;
+}
+
+#ensemble{
+	margin-right:auto;
+	margin-left:auto;
+	height:800px;
+	width:80%;
+}
+#gauche{
+	float:left;
+	height:800px;
+	width:50%;
+}
+#droite{
+	float:right;
+	height:800px;
+	width:50%;
+}
