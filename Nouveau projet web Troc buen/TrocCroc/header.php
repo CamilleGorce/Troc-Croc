@@ -1,7 +1,7 @@
 <?php 
 include_once('Class/Membre.php');
 session_start();
-if($_POST){
+if($_POST['boutonconnexion']){
 
     //crypter le mot de passe
     $pass_md5 = md5($_POST['pass']);
@@ -21,6 +21,8 @@ if($_POST){
         $_SESSION["user"] = $membre;
     }
 }
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,6 +33,8 @@ if($_POST){
     <title>header</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/trocandcroc.js"></script>
   </head>
 
   <body>
@@ -49,14 +53,14 @@ if($_POST){
             <?php if(empty($_SESSION["user"])){?>
             <div class="mot">
                 <p> pseudo :<br>
-                    mot de passe :
+                    mot de passe : 
                 </p>
             </div>
             <div class="form">
                 <form  method="post" action="">
-                <p> <input type="text" name="pseudo" id="pseudo" /><br>
-                    <input type="password" name="pass" id="pass" /><br>
-                    <input type="submit" value="Connexion"/>
+                <p> <input type="text" style="width:150px" name="pseudo" id="pseudo" /><br>
+                    <input type="password" style="width:150px" name="pass" id="pass" /><br>
+                    <input type="submit" name ="boutonconnexion" value="Connexion"/>
                 </p>
                 <p class="ins"><a href="inscription.php">Inscription</a></p>
                 </form>

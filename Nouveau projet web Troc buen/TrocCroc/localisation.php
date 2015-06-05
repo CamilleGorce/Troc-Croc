@@ -140,19 +140,21 @@
     for (var i = 0; i < paths.length; i++) {
       paths[i].addEventListener("click", function(e){
         console.log("Dpt: "+e.target.getAttribute('data-num'));
-        var id = e.target.getAttribute('data-num');
-        location.href="departement&dep="+id+"";
+        var ids = e.target.getAttribute('data-num');
+         var idDep = e.target.getAttribute('id');
+        location.href="departement.php?searchdep="+ids+"";
+        /*departement.php?searchdep=Yvelines*/
       })
     }
 
     for (var i = 0; i < paths.length; i++) {
       paths[i].addEventListener("mouseover", function(e){
         console.log(e.target.getAttribute('data-num'));
-        var id = e.target.getAttribute('data-num');
+        var ids = e.target.getAttribute('data-num');
         /*var x =event.pageX;
         var y = event.pageY;*/
         $('#dep').html("Département : ");  // Vider la box
-        $('#dep').append(id); // recupérer id departement
+        $('#dep').append(ids); // recupérer id departement
       })
     }
 

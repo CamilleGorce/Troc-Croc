@@ -4,7 +4,7 @@
   <head>
     
     <meta charset="utf-8"/>
-    <title>Qui sommes-nous?</title>
+    <title>Accueil</title>
 
     <link rel="stylesheet" href="Qui sommes-nous.css">
   </head>

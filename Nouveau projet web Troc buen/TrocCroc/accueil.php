@@ -56,7 +56,7 @@
             <form id="pos">
             <input type="checkbox" value="Utiliser ma position"/> Utiliser ma position
             </form>
-            <form id="dep">
+            <form id="depart">
             Département : <input type="text" />
             </form>
         </p>

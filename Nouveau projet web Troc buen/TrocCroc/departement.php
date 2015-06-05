@@ -5,18 +5,19 @@
 	require('Class/Connexion.php');
 	require('Class/flash.php');
 
-
 /*ini_set('display_errors', 1);
 ini_set("diplay_sartup_errors", 1);
 error_reporting(-1);*/
 
 
-$search=$_GET["search"];
+$searchdep=$_GET["searchdep"];
 
 
 $bdd = Connexion::connectBdd();
-$sql=$bdd->query("SELECT U.pseudo,U.id_membre, A.nom, A.description,A.prix,A.quantité,A.troc,A.departement,A.date FROM annonce A,utilisateur U WHERE A.nom LIKE '%$search%' AND A.id_vendeur = U.id_membre");?>
+$sql=$bdd->query("SELECT U.pseudo,U.id_membre, A.nom, A.description,A.prix,A.quantité,A.troc,A.departement,A.date FROM annonce A,utilisateur U WHERE A.departement LIKE '%$searchdep%'AND A.id_vendeur = U.id_membre");
 
+
+?>
 
 
 <!DOCTYPE html>
@@ -38,14 +39,14 @@ $sql=$bdd->query("SELECT U.pseudo,U.id_membre, A.nom, A.description,A.prix,A.qua
     
     <hr>
 
+
+
 <?php
 while($show=$sql->fetch()){
 ?>
-<div class="banane">
 
-</br>
-</br>
-	<img class='cube2'src="<?= $search ?>.jpg" />
+
+	<img class='cube2'src="<?= $show['nom'] ?>.jpg" />
  	<?php
   echo 'Nom : '.$show['nom']."</br>"; 
   echo 'Description : '.$show['description']."</br>";
@@ -55,17 +56,14 @@ while($show=$sql->fetch()){
   echo 'Possibilité de troc : '.$show['troc']."</br>";
   echo 'Date de l\'annonce : '.$show['date'].'</br>';
   echo 'Vendeur : <a href="profil?idmembre='.$show['id_membre'].'">'.$show['pseudo'].'</a></br></br></br>';
-
   ?>
  
 <!-- php echo -> = -->
 
-</div>
 <?php
 
 }
 
-  include("footer.php");
 ?>
 
 

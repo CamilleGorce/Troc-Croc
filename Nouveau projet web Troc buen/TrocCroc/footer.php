@@ -12,6 +12,7 @@
   <body>
     
     <footer>
+    </br>
         <h3 class="title-footer">A propos</h3>    
             <div class="col-footer">
                     <li><a href="#">A propos de Troc & Croc</a></li>

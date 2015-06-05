@@ -22,17 +22,36 @@
 require('Class/annonce.php');
 require('Class/flash.php');
 
+
 $req = Annonce::getAllAnnonce();
 
-while ($value = $req->fetch()) {?>
+while ($value = $req->fetch()) {
+  ?>
+<div class='banane'>
+</br>
+</br>
+  <img class="cube2" src="<?= $value['nom'] ?>.jpg"/> 
+  <?php
+  echo 'Nom : '.$value['nom'].'</br>';
+  echo 'Description du produit : '.$value['description'].'</br>';
+  echo 'Prix : '.$value['prix'].' €/kg'.'</br>';
+  echo 'Quantité disponible : '.$value['quantité'].' kg'."</br>";
+  echo 'Département : '.$value['departement'].'</br>';
+  echo 'Possibilité de troc : '.$value['troc'].'</br>';
+  echo 'Vendeur : '.$value['pseudo']."</br>";
+  echo 'Date de l\'annonce : '.$value['date'].'</br>';
 
-	<img class="cube2" src="<?= $value['nom'] ?>.jpg"/> </br>
-	<?php
-	echo 'Nom : '.$value['nom'].'</br>';
-	echo 'Description du produit : '.$value['description'].'</br>';
-	echo 'Prix (/kg) : '.$value['prix'].'</br>';
-	echo 'Possibilité de troc : '.$value['troc'].'</br>';
-	echo 'Date de l\'annonce : '.$value['date'].'</br></br></br>';
+
+?>
+</div>
+<?php
 
 }
 ?>
+
+<?php include("footer.php"); ?>
+
+</body>
+</html>
+
+
