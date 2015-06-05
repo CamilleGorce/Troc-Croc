@@ -40,7 +40,8 @@
                 <p class="ins"><a href="index.php?page=inscription">Inscription</a></p>
                 </form>
             </div>';
-             }else{
+             }
+             else{
                echo '<p>'.$_SESSION["user"]->getPseudo().'</p>
               <p><a href="modeles/deconnexion.php">Déconnexion</a></p>';
             }?>

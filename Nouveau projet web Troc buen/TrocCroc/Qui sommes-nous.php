@@ -13,7 +13,7 @@
 
     <?php include("header.php"); ?>
 
-    <div id="accueil"><h4>Qui sommes-nous?</p></div>
+    <div id="accueil"><h4>Qui sommes-nous?</h4></div>
     
     <hr>
     

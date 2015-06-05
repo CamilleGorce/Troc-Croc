@@ -16,16 +16,14 @@
             <div class="col-footer">
                     <li><a href="#">A propos de Troc & Croc</a></li>
                     <li><a href="index.php?page=Qui_sommes-nous">Qui sommes-nous?</a></li>
-                    <li><a href="index.php?page=conditionsdutilisation">Conditions d'utilisations</a></li>
             </div>
             <div class="col-footer">
                     <li><a href="#">Plan du site</a></li> 
                     <li><a href="#">Confidentialité</a></li> 
-                    <li><a href="#">Presse</a></li></li>
             </div>
             <div class="col-footer">
-                    <li><a href="#">Aide</a></li>
                     <li><a href="#">Donner votre avis</a></li>
+                    <li><a href="index.php?page=conditionsdutilisation">Conditions d'utilisations</a></li>
             </div>
 </br>
 </br>
