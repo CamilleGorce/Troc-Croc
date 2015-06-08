@@ -1,0 +1,403 @@
+body{
+    background-color:#8B4513;
+    margin: O auto;
+    }
+
+
+header{
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    width:1332px;
+    background-color:#BD8D46;
+    position:fixed;
+}
+header ul{
+    width:950px;
+    height:30px;
+    margin-top:40px;
+}
+header li{
+    display:inline;
+    margin-right:50px;
+}
+header li a{
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+    font-family:calibri;
+}
+header a:hover{
+    color:#B5E655;
+}
+header img {
+    height:98px;
+    witdth:100px;
+    float:left;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:50px;
+}
+.ensemble{
+    display:inline-block;
+    float:right;
+    height:100px;
+    margin-top:-90px;
+    margin-right:30px;
+}
+.mot{
+    float:left;
+    margin-top:4px;
+    margin-right:2px;
+}
+.mot p{
+    font-size:18px;
+    font-family:calibri;
+}
+.form{
+    float:right;
+    height:100px;
+}
+.form a{
+    text-decoration:none;
+    color:black;
+}
+.form a:hover{
+    color:#B5E655;
+}
+.form p{
+    font-size:18px;
+    color:black;
+    font-family:calibri;
+}
+.ins{
+    font-size:14px;
+    font-family:calibri;
+    float:right;
+    margin-top:-40px;
+    margin-right:10px;
+}
+
+.fond{
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+    width:1330px;
+}
+.fond img{
+    height:400px;
+    width:1330px;
+}
+#titre{
+    text-align:center;
+    margin-top:-290px;
+    color:white;
+    font-size:100px;
+    font-family:Brush Script MT;
+    }
+#slogan{
+    text-align:center;
+    margin-top:-80px;
+    color:white;
+    font-family:Brush Script MT;
+    font-size:80px;
+    }
+
+
+ #accueil{
+ text-align:center;
+ font-size:50px;
+ font-family:calibri;
+ margin-bottom:50px;
+ }
+
+ .membre p {
+    font-size:20px;
+    font-family:calibri;
+    text-align:center;
+ }   
+
+
+.haut{
+    height:460px;
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#histoire{
+    text-align:left;
+    font-size:28px;
+    font-family:calibri;
+    margin-left:130px;
+    margin-bottom:-1px;
+}
+.intro{
+    height:400px;
+    width:550px;
+    border:1px solid black;
+    border-radius:10px;
+    float:left;
+}
+.intro p{
+    font-size:14px;
+    text-align:left;
+    font-family:calibri;
+}
+.paysage{
+    height:450px;
+    width:550px;
+    border:1px solid black;
+    float:right;
+    margin-top:-50px;
+}
+.paysage img{
+    height:450px;
+    width:550px;
+}
+
+
+
+.fruitlegume{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    height:400px;
+    width:1100px;
+}
+.fr{
+    height:400px;
+    width:500px; 
+    float:left;
+}
+.le{
+    height:400px;
+    width:500px;
+    float:right;
+}
+.fr img{
+    height:350px;
+    width:450px;
+    margin-left:20px;
+}
+.le img{
+    height:350px;
+    width:450px;
+    margin-left:20px;
+}
+.fruitlegume a{
+    font-size:24px;
+    font-family:calibri;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+}
+.fruitlegume a:hover{
+    color:#B5E655;
+}
+
+
+#offres{
+    font-size:30px;
+    font-family:calibri;
+    text-align:center;
+}
+.position{
+    margin-left:auto;
+    margin-right:auto;
+    height:50px;
+    width:950px;
+    border:1px solid black;
+}
+#pos{
+    float:left;
+    margin-left:70px;
+}
+#dep{
+    float:right;
+    margin-right:100px;
+}   
+
+.offre{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    height:660px;
+    width:950px;
+}
+.un{
+    border:1px solid black;
+    height:300px;
+    width:950px;
+    margin-bottom:20px;
+}
+.un img{
+    height:250px;
+    width:250px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.produit{
+    float:right;
+    height:280px;
+    width:650px;
+    margin-top:10px;
+    border:1px solid black;
+}
+.deux{
+    border:1px solid black;
+    height:300px;
+    width:950px;
+}
+
+
+.semaine{
+    margin-left:auto;
+    margin-right:auto;
+    height:1050px;
+    width:950px;
+}
+.fruit{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    height:320px;
+    witdh:950px;
+}
+#fruit{
+    float:right;
+    font-size:30px;
+    font-family:calibri;
+    margin-right:150px;
+}
+.image img{
+    float:left;
+    height:270px;
+    width:300px;
+    margin-top:30px;
+}
+.text{
+    border:1px solid black;
+    float:right;
+    height:200px;
+    width:450px;
+    margin-right:50px;
+}
+.text p{
+    font-size:18px;
+    font-family:calibri;
+    text-align:center;
+}
+
+.legume{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    height:320px;
+    witdh:950px;
+}
+#legume{
+    float:right;
+    margin-right:130px;
+    font-size:30px;
+    font-family:calibri;
+}
+.image2 img{
+    float:left;
+    height:270px;
+    width:300px;
+    margin-top:30px;
+}
+.text2{
+    border:1px solid black;
+    float:right;
+    height:200px;
+    width:450px;
+    margin-right:50px;
+}
+.text2 p{
+    font-size:18px;
+    font-family:calibri;
+    text-align:center;
+}
+
+.vendeur{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    height:320px;
+    witdh:950px;
+}
+#vendeur{
+    float:right;
+    margin-right:130px;
+    font-size:30px;
+    font-family:calibri;
+}
+.image3 img{
+    height:270px;
+    width:300px;
+    float:left;
+    margin-top:30px;
+}
+.text3{
+    height:200px;
+    width:450px;
+    float:right;
+    margin-right:50px;
+}
+.text3 p{
+    font-size:18px;
+    font-family:calibri;
+}
+
+
+
+
+footer{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    border-top:1px solid black;
+    width:1000px;
+}
+#propos{
+    text-align:center;
+    font-size:30px;
+    font-family:calibri;
+}
+.propos{
+    width:950px;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.col1{
+    height:60px;
+    width:290px;
+    float:left;
+}
+.col2{
+    height:60px;
+    width:290px;
+    margin:auto;
+}
+.col3{
+    height:60px;
+    width:290px;
+    float:right;
+    margin-top:-62px;
+}
+li{
+    text-align:center;
+    list-style-type:none;
+    font-size:18px;
+    font-family:calibri;
+}
+li a{
+    text-decoration:none;
+    color:black;
+}
+li a:hover{
+    color:#B5E655;
+}

@@ -85,6 +85,7 @@ echo "Vous êtes bien inscrit !";
     <hr>
 
 	<div class="Titres">
+		</br>
 	 	<p>Informations de connection : </p> 
 	</div>
 	<form action="" method="post">

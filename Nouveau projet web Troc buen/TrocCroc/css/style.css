@@ -1,15 +1,13 @@
 body{
     background-image:url("beige_Fotor.jpg");
-    margin-left: 15px;
-    margin-right: 10px;
     }
 
 header{
     z-index: 30;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:-10px;
+    margin-right:-10%;
     height:100px;
-    width:98%;
+    width:100%;
     top: 0px;
     background-color:#9C031B;
     position:fixed;
@@ -43,8 +41,10 @@ header img {
 .ensemble{
     display:inline-block;
     float:right;
-    margin-top:-90px;
+    margin-top:-80px;
     margin-right:30px;
+    font-family:calibri;
+    font-family: 20px;
 }
 .mot{
     float:left;
@@ -76,15 +76,14 @@ header img {
     font-family:calibri;
     float:right;
     margin-top:-40px;
-    margin-right:-2px;
 }
 
 .fond{
     margin-top: 100px;
-    margin-left:auto;
-    margin-right:auto;
-
+    margin-left: -10px;
+    margin-right: -10px;
 }
+
 .fond img{
     width:100%;
 }
@@ -267,7 +266,7 @@ table.accueiltable
     float:left;
     margin-left:70px;
 }
-#dep{
+#depart{
     float:right;
     margin-right:100px;
 }   
@@ -304,7 +303,6 @@ table.accueiltable
     border:1px solid black;
 }
 
-
 .semaine{
     margin-left:auto;
     margin-right:auto;
@@ -325,34 +323,26 @@ table.accueiltable
     height: 150px;
 }
 
-
-
 footer{
     text-align: center;
-    margin-right:auto;
-    margin-left:auto;
     margin-top:100px;
-    margin-bottom: 20px;
-    border-top:1px solid black;
-    width:100%;
+    margin-bottom: -20px;
+    margin-left: -10%;
+    margin-right: -10%;
+    width:111%;
     background-color:#800c16; 
 }
 
 .title-footer{
-    text-align:center;
+    margin-left: 10%;
     font-size:30px;
     font-family:calibri;
+
 }
 
-.apropos{
-    width:100%;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 .col-footer{
     display: inline-block;
-    width:30%;
+    margin-left: 7%;
 }
 
 li{
@@ -378,8 +368,7 @@ body.inscription{
 table.inscription
 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 29%;
     border: 2px;
     width: 50%;
 }
@@ -471,13 +460,24 @@ body.profil{
 }
 
 .resultat_requete{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banane{
     border-bottom: 2px solid #9C031B;
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.banane2{
+    border-bottom: 2px solid #9C031B;
+}
+
 .search{
     font-size: 150%;
 }
+
 .rechercher{
     text-align: center;
     font-size: 120%;
@@ -529,6 +529,7 @@ body.profil{
     height:130px;
     width:160px;
     float: left;
+    margin-right: 3%;
 }
 
 #map {        
@@ -561,9 +562,25 @@ body.profil{
     top:1000px;
     left:1000px;
     position:absolute;
-    z-index:29;
     background:white;
     border: 2px solid black;
+}
+
+.alert {
+padding: 5px;
+  margin-top: 70px;
+  width: 97%;
+  text-align: center;
+  z-index: 5;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 31px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px #888888;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
 }
 
 

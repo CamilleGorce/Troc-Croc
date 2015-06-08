@@ -1,0 +1,24 @@
+<?php 
+
+    if(empty($_SESSION["user"])){
+      
+           echo '<div class="mot">
+                <p> pseudo :<br>
+                    mot de passe :
+                </p>
+            </div>
+            <div class="form">
+                <form  method="post" action="modeles/connexion_header_modele.php">
+                <p> <input type="text" name="pseudo" id="pseudo" /><br>
+                    <input type="password" name="pass" id="pass" /><br>
+                    <input type="submit" value="Connexion"/>
+                </p>
+                <p class="ins"><a href="index.php?page=inscription">Inscription</a></p>
+                </form>
+            </div>';
+    }else{
+               
+               echo '<p>'.$_SESSION["user"]->getPseudo().'</p>
+              <p><a href="modeles/deconnexion.php">Déconnexion</a></p>';
+
+            }?>
