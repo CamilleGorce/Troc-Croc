@@ -12,9 +12,9 @@
   <body>
     
     <footer>
-        <a href="https://www.facebook.com/TrocCroc?skip_nax_wizard=true&ref_type=bookmark">
-        <img src="facebook.jpg"/></a>
-        <a herf="https://twitter.com/TrocCroc"><img src="twitter.jpg"/></a>
+        <a href="https://www.facebook.com/TrocCroc?skip_nax_wizard=true&ref_type=bookmark"><img src="images/facebook.jpg"/></a>
+        <a herf="https://twitter.com/TrocCroc"><img src="images/twitter.jpg"/></a>
+        <a href=""><img src="images/google+.png"/></a>
         <h3 class="title-footer">A propos</h3>    
             <div class="col-footer">
                     <li><a href="#">A propos de Troc & Croc</a></li>
