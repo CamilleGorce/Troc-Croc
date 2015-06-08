@@ -583,5 +583,47 @@ padding: 5px;
   display: block;
 }
 
+/*************************************************************
+**************** FORUM ***************************************
+*************************************************************/
 
+
+.forum_ajout{
+    text-align:  center;
+}
+
+.forum textarea {
+    resize: none;
+    width : 35%;
+    height : 20%;  
+}
+
+.forum .nouveau_sujet {
+    width : 20%;
+    height : 3.5%; 
+}
+
+.table_forum td {
+    height : 20%;
+       border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+.table_forum {
+    background-color: white;
+    border-collapse: collapse;
+    margin-left: 25%;
+    height : 15%;
+    width: 50%;
+    text-align: center;
+}
+
+.table_message {
+    margin-left: 25%;
+    height : 15%;
+    width: 50%;
+}
 

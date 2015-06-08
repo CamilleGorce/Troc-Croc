@@ -73,6 +73,19 @@ if(isset($_SESSION['user']) AND isset($id_user)){
 		include("vues/header.php");
 		include("vues/annonces.php");
 
+
+
+	}else if(isset($_GET['page']) AND $_GET['page']=="forum"){
+		include("vues/header.php");
+		include("vues/forum.php");
+
+
+	}
+
+	else if(isset($_GET['page']) AND $_GET['page']=="forum_message"){
+		include("vues/header.php");
+		include("vues/forum_message.php");
+
 	}else{
 		include("vues/header.php");
 		include("vues/accueil.php");

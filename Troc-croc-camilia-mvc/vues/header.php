@@ -19,7 +19,7 @@
             <li><a href="index.php?page=recherche">Achat</a></li>
             <li><a href="index.php?page=vente">Vente</a></li>
             <li><a href="index.php?page=localisation">Localisation</a></li>
-            <li><a href="#">Forum</a></li>
+            <li><a href="index.php?page=forum">Forum</a></li>
             
             <?php if(!empty($_SESSION["user"])){
                 echo'<li><a href="index.php?page=profil">Mon profil</a></li>';
